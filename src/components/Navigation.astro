@@ -4,18 +4,44 @@
 
 <nav>
     <ul>
-      <li><strong>Brand</strong></li>
+        <div class="logo"></div>
+        <li class="logo-txt">ELFORM</li>
     </ul>
     <ul>
-      <li><a href="#">Link</a></li>
-      <li><a href="#">Link</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
     </ul>
   </nav>
 
 <style>
     nav {
-        width: 100vw;
+        width: calc(100vw - 2em);
         position: fixed;
+        top: 0;
+        margin: 0 1em;
+    }
+
+    nav ul {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo{
+        display: flex;
+        width: 0.6em;
+        height: 0.6em;
+        background-color: #ffffff;
+        border-radius: 50%;
+    }
+
+    .logo-txt{
+        font-family: 'Spectral SC', serif;
+        font-size: 1.5em;
+        font-weight: 300;
     }
 
 </style>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Spectral+SC:wght@300&display=swap');
+  </style>
