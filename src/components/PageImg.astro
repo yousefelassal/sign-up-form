@@ -1,0 +1,17 @@
+---
+import LottieAnimation from "astro-integration-lottie/Lottie.astro";
+---
+
+<script src="https://cdnjs.com/libraries/bodymovin" type="text/javascript"></script>
+
+<div id="container">
+    <LottieAnimation src="/animation.json" autoplay="visible" />
+</div>
+
+<style>
+    #container {
+        width: 50vw;
+        height: calc(100vh - 0.9em);
+        background-color: #fff;
+    }
+</style>

@@ -1,7 +1,10 @@
 ---
 import Navigation from '../components/Navigation.astro';
 import PageBody from '../components/PageBody.astro';
+import PageImg from '../components/PageImg.astro';
+
 import '../styles/global.css';
+
 const {pageTitle} = Astro.props;
 ---
 <html lang="en">
@@ -10,11 +13,13 @@ const {pageTitle} = Astro.props;
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 		<title>{pageTitle}</title>
 	</head>
 	<body>
         <Navigation />
         <PageBody />
+        <PageImg />
         <slot />
 	</body>
 </html>

@@ -11,3 +11,7 @@ html{
     min-height: 100%;
     width: 200vw;
 }
+
+body{
+    display:flex;
+}

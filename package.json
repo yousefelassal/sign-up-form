@@ -12,6 +12,7 @@
   "dependencies": {
     "@picocss/pico": "^1.5.10",
     "astro": "^2.4.1",
+    "astro-integration-lottie": "^0.2.3",
     "lottie-web": "^5.11.0"
   }
 }
