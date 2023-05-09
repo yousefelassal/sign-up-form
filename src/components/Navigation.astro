@@ -4,11 +4,12 @@
 
 <nav>
     <ul>
-        <li class="logo-txt">ELFORM</li>
+        <li><a class="logo-txt" href="#body">ELFORM</a></li>
     </ul>
     <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
+        <li><a href="#">Contact Us</a></li>
     </ul>
   </nav>
 
@@ -25,14 +26,32 @@
         align-items: center;
     }
 
+    li a {
+        color: #415462;
+        font-family: 'Spectral SC', serif;
+    }
+
+    li a:hover {
+        color: #1d1f21;
+        text-decoration: underline;
+        text-underline-offset: 8px;
+    }
+
     .logo-txt{
         font-family: 'Spectral SC', serif;
         font-size: 1.5em;
         font-weight: 300;
+        text-decoration: none;
+        color: #415462
+    }
+
+    .logo-txt:hover{
+        color: #1d1f21;
+        text-decoration:none;
     }
 
 </style>
 
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Spectral+SC:wght@300&display=swap');
-  </style>
+</style>
