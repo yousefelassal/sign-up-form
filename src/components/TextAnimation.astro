@@ -1,5 +1,5 @@
 ---
-
+import anime from 'animejs/lib/anime.min.js';
 ---
 
 <h1 class="ml15">
@@ -20,8 +20,8 @@
     }
     </style>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-<script>
+<script src="../scripts/anime.min.js"></script>
+<script type="module">
     anime.timeline({loop: true})
   .add({
     targets: '.ml15 .word',
