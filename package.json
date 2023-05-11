@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@picocss/pico": "^1.5.10",
+    "animejs": "^3.2.1",
     "astro": "^2.4.1",
     "astro-integration-lottie": "^0.2.3",
     "kute.js": "^2.2.4",
