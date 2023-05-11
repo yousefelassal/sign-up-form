@@ -1,5 +1,5 @@
 ---
-import anime from '../scripts/anime.min.js';
+import anime from '../scripts/anime.es.js';
 ---
 
 <h1 class="ml15">
@@ -25,9 +25,8 @@ import anime from '../scripts/anime.min.js';
     }
     </style>
 
-<script src="../scripts/anime.min.js"></script>
 <script type="module">
-    anime.timeline({loop: false})
+    anime.timeline({loop: true})
   .add({
     targets: '.ml15 .word',
     scale: [14,1],
