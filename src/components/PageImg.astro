@@ -2,15 +2,17 @@
 import LottieAnimation from "astro-integration-lottie/Lottie.astro";
 import Waves from "./Waves.astro";
 ---
+
+<img  id="floatin-img" src="/3d-man.webp">
 <Waves>
     <div id="container">
-        <LottieAnimation src="/animation.json" autoplay="visible" />
+        <!-- <LottieAnimation src="/animation.json" autoplay="visible" /> -->
     </div>
 </Waves>
-<div id="floating-container">
+<div id="floating-container-animation">
     <LottieAnimation src="/speaker-animation.json" autoplay="visible" />
 </div>
-
+<img id="floating-img2" src="/3d-woman-man.webp">
 <style>
     #container {
         width: 70vw;
@@ -20,12 +22,29 @@ import Waves from "./Waves.astro";
         z-index: 1;
     }
 
-    #floating-container {
+    #floating-container-animation {
         position: absolute;
         top: 100px;
-        left: 150vw;
+        left: 120vw;
         width: 20vw;
         height: 20vh;
+        z-index: 2;
+    }
+
+    #floatin-img {
+        position: absolute;
+        top: 100px;
+        left: 50vw;
+        width: auto;
+        height: 60vh;
+        z-index: 2;
+    }
+    #floatin-img2 {
+        position: absolute;
+        top: 100px;
+        left: 80vw;
+        width: auto;
+        height: 60vh;
         z-index: 2;
     }
 </style>

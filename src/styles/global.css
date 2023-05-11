@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
 
 :root {
-    --primary: #fdd835;
+    --primary: hsl(52, 91%, 63%);
   }
 
 *{
