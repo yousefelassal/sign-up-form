@@ -16,7 +16,9 @@ import CircularText from "./CircularText.astro";
     <LottieAnimation src="/animation.json" autoplay="visible" />
 </div> -->
 <img id="floating-img2" src="/3d-woman-man.webp" class="rellax" data-rellax-speed="3" data-rellax-zindex="5">
-<CircularText />
+<div id="circular-text">
+    <CircularText />
+</div>
 
 <style>
     #container {
@@ -64,6 +66,13 @@ import CircularText from "./CircularText.astro";
 
     #shopping-cart {
         z-index: 4;
+    }
+
+    #circular-text{
+        position: absolute;
+        top: 65vh;
+        left: 180vw;
+        z-index: 2;
     }
 </style>
 
