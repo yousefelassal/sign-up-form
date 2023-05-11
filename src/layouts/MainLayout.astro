@@ -3,6 +3,7 @@ import Navigation from '../components/Navigation.astro';
 import PageBody from '../components/PageBody.astro';
 import PageImg from '../components/PageImg.astro';
 import Footer from '../components/Footer.astro';
+import Loader from '../components/Loader.astro';
 
 import '../styles/global.css';
 
@@ -17,6 +18,7 @@ const {pageTitle} = Astro.props;
 		<title>{pageTitle}</title>
 	</head>
 	<body>
+		<Loader />
         <Navigation />
         <PageBody />
         <PageImg />
