@@ -1,5 +1,5 @@
 ---
-import KUTE from 'kute.js'
+import KUTE from "kute.js";
 ---
 
 <svg
@@ -12,37 +12,129 @@ import KUTE from 'kute.js'
     version="1.1"
 >
     <g>
-        <path id="wave1A"
+        <path
+            id="wave1A"
             d="M29 600L29.2 585.7C29.3 571.3 29.7 542.7 34.5 514.2C39.3 485.7 48.7 457.3 53.2 428.8C57.7 400.3 57.3 371.7 54.5 343C51.7 314.3 46.3 285.7 41.5 257C36.7 228.3 32.3 199.7 34.7 171.2C37 142.7 46 114.3 51.7 85.8C57.3 57.3 59.7 28.7 60.8 14.3L62 0L100 0L100 14.3C100 28.7 100 57.3 100 85.8C100 114.3 100 142.7 100 171.2C100 199.7 100 228.3 100 257C100 285.7 100 314.3 100 343C100 371.7 100 400.3 100 428.8C100 457.3 100 485.7 100 514.2C100 542.7 100 571.3 100 585.7L100 600Z"
             fill="#f6e049"></path>
-        <path id="wave1B"
+        <path
+            id="wave1B"
             d="M74 600L70.5 585.7C67 571.3 60 542.7 58.3 514.2C56.7 485.7 60.3 457.3 64.3 428.8C68.3 400.3 72.7 371.7 74.2 343C75.7 314.3 74.3 285.7 74.3 257C74.3 228.3 75.7 199.7 75.5 171.2C75.3 142.7 73.7 114.3 69.7 85.8C65.7 57.3 59.3 28.7 56.2 14.3L53 0L100 0L100 14.3C100 28.7 100 57.3 100 85.8C100 114.3 100 142.7 100 171.2C100 199.7 100 228.3 100 257C100 285.7 100 314.3 100 343C100 371.7 100 400.3 100 428.8C100 457.3 100 485.7 100 514.2C100 542.7 100 571.3 100 585.7L100 600Z"
             fill="#aac6fc"></path>
     </g>
     <g>
-    <path id="wave2A"
-        d="M51 600L47.3 580C43.7 560 36.3 520 38.2 480C40 440 51 400 50 360C49 320 36 280 31.3 240C26.7 200 30.3 160 33.3 120C36.3 80 38.7 40 39.8 20L41 0L100 0L100 20C100 40 100 80 100 120C100 160 100 200 100 240C100 280 100 320 100 360C100 400 100 440 100 480C100 520 100 560 100 580L100 600Z"
-        fill="#f6e049"></path>
-        <path id="wave2B"
-        d="M63 600L66.5 580C70 560 77 520 79.7 480C82.3 440 80.7 400 76.7 360C72.7 320 66.3 280 61.7 240C57 200 54 160 54.5 120C55 80 59 40 61 20L63 0L100 0L100 20C100 40 100 80 100 120C100 160 100 200 100 240C100 280 100 320 100 360C100 400 100 440 100 480C100 520 100 560 100 580L100 600Z"
-        fill="#aac6fc"></path>
+        <path
+            id="wave2A"
+            d="M51 600L47.3 580C43.7 560 36.3 520 38.2 480C40 440 51 400 50 360C49 320 36 280 31.3 240C26.7 200 30.3 160 33.3 120C36.3 80 38.7 40 39.8 20L41 0L100 0L100 20C100 40 100 80 100 120C100 160 100 200 100 240C100 280 100 320 100 360C100 400 100 440 100 480C100 520 100 560 100 580L100 600Z"
+            fill="#f6e049"></path>
+        <path
+            id="wave2B"
+            d="M63 600L66.5 580C70 560 77 520 79.7 480C82.3 440 80.7 400 76.7 360C72.7 320 66.3 280 61.7 240C57 200 54 160 54.5 120C55 80 59 40 61 20L63 0L100 0L100 20C100 40 100 80 100 120C100 160 100 200 100 240C100 280 100 320 100 360C100 400 100 440 100 480C100 520 100 560 100 580L100 600Z"
+            fill="#aac6fc"></path>
+    </g>
+</svg>
+
+<slot />
+
+<svg
+    id="Waves-Right"
+    viewBox="0 0 100 600"
+    width="100"
+    height="600"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    version="1.1"
+>
+    <g>
+        <path
+            id="wave3A"
+            d="M61 0L59.5 14.3C58 28.7 55 57.3 54.7 85.8C54.3 114.3 56.7 142.7 59.8 171.2C63 199.7 67 228.3 65.5 257C64 285.7 57 314.3 57.2 343C57.3 371.7 64.7 400.3 66.5 428.8C68.3 457.3 64.7 485.7 63 514.2C61.3 542.7 61.7 571.3 61.8 585.7L62 600L0 600L0 585.7C0 571.3 0 542.7 0 514.2C0 485.7 0 457.3 0 428.8C0 400.3 0 371.7 0 343C0 314.3 0 285.7 0 257C0 228.3 0 199.7 0 171.2C0 142.7 0 114.3 0 85.8C0 57.3 0 28.7 0 14.3L0 0Z"
+            fill="#f6e049"></path>
+        <path id="wave3B"
+            d="M39 0L38.5 14.3C38 28.7 37 57.3 36.8 85.8C36.7 114.3 37.3 142.7 36.7 171.2C36 199.7 34 228.3 32.5 257C31 285.7 30 314.3 29.2 343C28.3 371.7 27.7 400.3 27.2 428.8C26.7 457.3 26.3 485.7 29.8 514.2C33.3 542.7 40.7 571.3 44.3 585.7L48 600L0 600L0 585.7C0 571.3 0 542.7 0 514.2C0 485.7 0 457.3 0 428.8C0 400.3 0 371.7 0 343C0 314.3 0 285.7 0 257C0 228.3 0 199.7 0 171.2C0 142.7 0 114.3 0 85.8C0 57.3 0 28.7 0 14.3L0 0Z"
+            fill="#aac6fc"></path>
+    </g>
+    <g>
+        <path id="wave4A"
+            d="M47 0L51.7 14.3C56.3 28.7 65.7 57.3 70.5 85.8C75.3 114.3 75.7 142.7 74.2 171.2C72.7 199.7 69.3 228.3 66.3 257C63.3 285.7 60.7 314.3 62.2 343C63.7 371.7 69.3 400.3 69.7 428.8C70 457.3 65 485.7 59.8 514.2C54.7 542.7 49.3 571.3 46.7 585.7L44 600L0 600L0 585.7C0 571.3 0 542.7 0 514.2C0 485.7 0 457.3 0 428.8C0 400.3 0 371.7 0 343C0 314.3 0 285.7 0 257C0 228.3 0 199.7 0 171.2C0 142.7 0 114.3 0 85.8C0 57.3 0 28.7 0 14.3L0 0Z"
+            fill="#f6e049"></path>
+            <path id="wave4B"
+            d="M19 0L22.5 14.3C26 28.7 33 57.3 37.3 85.8C41.7 114.3 43.3 142.7 43.2 171.2C43 199.7 41 228.3 39.5 257C38 285.7 37 314.3 37.2 343C37.3 371.7 38.7 400.3 40.2 428.8C41.7 457.3 43.3 485.7 43.5 514.2C43.7 542.7 42.3 571.3 41.7 585.7L41 600L0 600L0 585.7C0 571.3 0 542.7 0 514.2C0 485.7 0 457.3 0 428.8C0 400.3 0 371.7 0 343C0 314.3 0 285.7 0 257C0 228.3 0 199.7 0 171.2C0 142.7 0 114.3 0 85.8C0 57.3 0 28.7 0 14.3L0 0Z"
+            fill="#aac6fc"></path>
     </g>
 </svg>
 
 <script>
-    import KUTE from 'kute.js'
-    const wave1A = document.getElementById('wave1A')
-    const wave1B = document.getElementById('wave1B')
-    const wave2A = document.getElementById('wave2A')
-    const wave2B = document.getElementById('wave2B')
+    import KUTE from "kute.js";
+    const wave1A = document.getElementById("wave1A");
+    const wave1B = document.getElementById("wave1B");
+    const wave2A = document.getElementById("wave2A");
+    const wave2B = document.getElementById("wave2B");
+    const wave3A = document.getElementById("wave3A");
+    const wave3B = document.getElementById("wave3B");
+    const wave4A = document.getElementById("wave4A");
+    const wave4B = document.getElementById("wave4B");
 
-    const wave1AAnimation = KUTE.fromTo(wave1A, { path: wave1A }, { path: wave2A }, { repeat: 999, duration: 2000, yoyo: true })
-    const wave1BAnimation = KUTE.fromTo(wave1B, { path: wave1B }, { path: wave2B }, { repeat: 999, duration: 2000, yoyo: true })
-    const wave2AAnimation = KUTE.fromTo(wave2A, { path: wave2A }, { path: wave1A }, { repeat: 999, duration: 2000, yoyo: true })
-    const wave2BAnimation = KUTE.fromTo(wave2B, { path: wave2B }, { path: wave1B }, { repeat: 999, duration: 2000, yoyo: true })
+    const wave1AAnimation = KUTE.fromTo(
+        wave1A,
+        { path: wave1A },
+        { path: wave2A },
+        { repeat: 999, duration: 2000, yoyo: true }
+    );
+    const wave1BAnimation = KUTE.fromTo(
+        wave1B,
+        { path: wave1B },
+        { path: wave2B },
+        { repeat: 999, duration: 2000, yoyo: true }
+    );
+    const wave2AAnimation = KUTE.fromTo(
+        wave2A,
+        { path: wave2A },
+        { path: wave1A },
+        { repeat: 999, duration: 2000, yoyo: true }
+    );
+    const wave2BAnimation = KUTE.fromTo(
+        wave2B,
+        { path: wave2B },
+        { path: wave1B },
+        { repeat: 999, duration: 2000, yoyo: true }
+    );
+    const wave3AAnimation = KUTE.fromTo(
+        wave3A,
+        { path: wave3A },
+        { path: wave4A },
+        { repeat: 999, duration: 2000, yoyo: true }
+    );
+    const wave3BAnimation = KUTE.fromTo(
+        wave3B,
+        { path: wave3B },
+        { path: wave4B },
+        { repeat: 999, duration: 2000, yoyo: true }
+    );
+    const wave4AAnimation = KUTE.fromTo(
+        wave4A,
+        { path: wave4A },
+        { path: wave3A },
+        { repeat: 999, duration: 2000, yoyo: true }
+    );
+    const wave4BAnimation = KUTE.fromTo(
+        wave4B,
+        { path: wave4B },
+        { path: wave3B },
+        { repeat: 999, duration: 2000, yoyo: true }
+    );
 
-    wave1AAnimation.start()
-    wave1BAnimation.start()
-    wave2AAnimation.start()
-    wave2BAnimation.start()
+    wave1AAnimation.start();
+    wave1BAnimation.start();
+    wave2AAnimation.start();
+    wave2BAnimation.start();
+    wave3AAnimation.start();
+    wave3BAnimation.start();
+    wave4AAnimation.start();
+    wave4BAnimation.start();
 </script>
+
+<style>
+    #Waves-Right {
+        transform: translateX(-1vw);
+    }
+</style>

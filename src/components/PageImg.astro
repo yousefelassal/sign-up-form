@@ -2,17 +2,16 @@
 import LottieAnimation from "astro-integration-lottie/Lottie.astro";
 import Waves from "./Waves.astro";
 ---
-<Waves />
-<div id="container">
-    <LottieAnimation src="/animation.json" autoplay="visible" />
-</div>
-
+<Waves>
+    <div id="container">
+        <LottieAnimation src="/animation.json" autoplay="visible" />
+    </div>
+</Waves>
 <style>
     #container {
         width: 70vw;
         height: 200vh;
         background-color: #aac6fc;
-        border-right: 3px solid #583c50;
         transform: translateX(-1vh);
         z-index: 1;
     }
