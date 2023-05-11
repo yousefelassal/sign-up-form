@@ -6,21 +6,21 @@ import Waves from "./Waves.astro";
 
 <Waves>
     <div id="container">
-        <img src="/shopping-cart.webp">
+        <img id="shopping-cart" src="/shopping-cart.webp">
     </div>
 </Waves>
 <!-- <div id="floating-container-animation">
     <LottieAnimation src="/speaker-animation.json" autoplay="visible" />
     <LottieAnimation src="/animation.json" autoplay="visible" />
 </div> -->
-<img id="floating-img2" src="/3d-woman-man.webp" class="rellax">
+<img id="floating-img2" src="/3d-woman-man.webp" class="rellax" data-rellax-speed="3" data-rellax-zindex="5">
 <style>
     #container {
         width: 70vw;
         height: 200vh;
         background-color: #aac6fc;
         transform: translateX(-1vh);
-        z-index: 1;
+        z-index: -1;
     }
 
     /* #floating-img-main{
@@ -55,7 +55,11 @@ import Waves from "./Waves.astro";
         left: 80vw;
         width: auto;
         height: 60vh;
-        z-index: 2;
+        z-index: 5;
+    }
+
+    #shopping-cart {
+        z-index: 4;
     }
 </style>
 
