@@ -1,7 +1,9 @@
 ---
 import LottieAnimation from "astro-integration-lottie/Lottie.astro";
 import Rellax from "../scripts/rellax.min.js";
+
 import Waves from "./Waves.astro";
+import CircularText from "./CircularText.astro";
 ---
 
 <Waves>
@@ -14,6 +16,8 @@ import Waves from "./Waves.astro";
     <LottieAnimation src="/animation.json" autoplay="visible" />
 </div> -->
 <img id="floating-img2" src="/3d-woman-man.webp" class="rellax" data-rellax-speed="3" data-rellax-zindex="5">
+<CircularText />
+
 <style>
     #container {
         width: 70vw;
