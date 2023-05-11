@@ -16,5 +16,8 @@
     "kute.js": "^2.2.4",
     "lottie-web": "^5.11.0",
     "rellax": "^1.12.1"
+  },
+  "devDependencies": {
+    "@types/rellax": "^1.7.4"
   }
 }
