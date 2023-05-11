@@ -7,6 +7,10 @@ import Waves from "./Waves.astro";
         <LottieAnimation src="/animation.json" autoplay="visible" />
     </div>
 </Waves>
+<div id="floating-container">
+    <LottieAnimation src="/speaker-animation.json" autoplay="visible" />
+</div>
+
 <style>
     #container {
         width: 70vw;
@@ -14,5 +18,14 @@ import Waves from "./Waves.astro";
         background-color: #aac6fc;
         transform: translateX(-1vh);
         z-index: 1;
+    }
+
+    #floating-container {
+        position: absolute;
+        top: 100px;
+        left: 150vw;
+        width: 20vw;
+        height: 20vh;
+        z-index: 2;
     }
 </style>
