@@ -3,8 +3,9 @@ import anime from 'animejs/lib/anime.min.js';
 ---
 
 <h1 class="ml15">
-    <span class="word">Out</span>
-    <span class="word">now</span>
+    <span class="word">elform</span>
+    <span class="word">elform</span>
+    <span class="word">elform</span>
 </h1>
 
 <style>
@@ -18,11 +19,15 @@ import anime from 'animejs/lib/anime.min.js';
     .ml15 .word {
         line-height: 1em;
     }
+    h1{
+        margin:0;
+        padding: 0;
+    }
     </style>
 
 <script src="../scripts/anime.min.js"></script>
 <script type="module">
-    anime.timeline({loop: true})
+    anime.timeline({loop: false})
   .add({
     targets: '.ml15 .word',
     scale: [14,1],

@@ -17,7 +17,9 @@ import TextAnimation from "./TextAnimation.astro";
     <LottieAnimation src="/animation.json" autoplay="visible" />
 </div> -->
 <img id="floating-img2" src="/3d-woman-man.webp" class="rellax" data-rellax-speed="3" data-rellax-zindex="5">
-<TextAnimation />
+<div id="text-animation">
+    <TextAnimation />
+</div>
 <div id="circular-text">
     <CircularText />
 </div>
@@ -76,6 +78,14 @@ import TextAnimation from "./TextAnimation.astro";
         left: 180vw;
         z-index: 2;
     }
+
+    #text-animation{
+        position: absolute;
+        top: 10vh;
+        left: 150vw;
+        z-index: -1;
+    }
+
 </style>
 
 <script src="../scripts/rellax.min.js"></script>
