@@ -19,16 +19,17 @@ const {pageTitle} = Astro.props;
 	</head>
 	<body>
 		<Loader />
-        <Navigation />
-        <PageBody />
-        <PageImg />
-        <slot />
-        <Footer />
+		<Navigation />
+		<PageBody />
+		<PageImg />
+		<slot />
+		<Footer />
 	</body>
 </html>
 
 <style>
     body{
         height:100vh;
+		overflow-x: hidden;
     }
 </style>
