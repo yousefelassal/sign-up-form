@@ -22,11 +22,11 @@
     <td align="center"><a href="https://vercel.com/"><img src="https://logowik.com/content/uploads/images/vercel1868.jpg" width="70px" height="50px"></a></td>
   </tr>
   <tr>
-    <td>Web Framework</td>
-    <td>Minimal CSS Framework</td>
-    <td>Animation Engine</td>
-    <td>Parallax Library</td>
-    <td>Deployment Environment</td>
+    <td align="center">Web Framework</td>
+    <td align="center">Minimal CSS Framework</td>
+    <td align="center">Animation Engine</td>
+    <td align="center">Parallax Library</td>
+    <td align="center">Deployment Environment</td>
   </tr>
 </table>
   <p><a href="https://haikei.app/">Haikei</a> to generate the SVGs</p>
