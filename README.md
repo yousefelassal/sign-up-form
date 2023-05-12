@@ -31,3 +31,6 @@
 </table>
   <p><a href="https://haikei.app/">Haikei</a> to generate the SVGs</p>
  </div>
+ <div align="right">
+ <i>*did not work on making it responsive</i>
+ </div>
