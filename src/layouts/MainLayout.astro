@@ -15,7 +15,6 @@ const {pageTitle} = Astro.props;
 		<link rel="icon" type="image/svg+xml" href="/assets/barcode.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<script src="../scripts/rellax.min.js" defer></script>
 		<title>{pageTitle}</title>
 	</head>
 	<body>
@@ -25,6 +24,7 @@ const {pageTitle} = Astro.props;
 		<PageImg />
 		<slot />
 		<Footer />
+		<script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
 	</body>
 </html>
 
