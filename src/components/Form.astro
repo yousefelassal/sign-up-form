@@ -1,5 +1,5 @@
 ---
-
+import '../scripts/script.js';
 ---
 
 <form class="custom-form">
@@ -33,7 +33,7 @@
     <input type="password" id="password" name="password" placeholder="Password" required>
   </label>
     <label for="passwordC">Confirm Password
-    <input type="password" id="passwordC" name="passwordC" placeholder="Password" required>
+    <input type="password" id="passwordC" name="passwordC" placeholder="Confirm Password" required onkeyup="validatePassword()">
   </label>
   </div>
   
@@ -107,3 +107,7 @@
     }
 
 </style>
+
+<script>
+    
+</script>
