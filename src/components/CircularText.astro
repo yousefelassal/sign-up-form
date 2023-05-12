@@ -18,7 +18,7 @@
         </path>
       </defs>
       <text width="400">
-        <textPath alignment-baseline="auto" xlink:href="#circle" class="text">
+        <textPath alignment-baseline="auto" xlink:href="#circle" class="text" id="scrollBack">
           Elform top eltop ...Sign Up yala mestany eh! -
         </textPath>
       </text>
@@ -75,3 +75,14 @@
     }
 
   </style>
+
+  <script>
+    const text = document.querySelector('#scrollBack');
+    text.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+      });
+    });
+  </script>
